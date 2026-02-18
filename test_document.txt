@@ -1,0 +1,2 @@
+This is a test document to demonstrate the file system watcher functionality.
+When placed in the Inbox folder, the watcher should detect it and create an action file in Needs_Action.
