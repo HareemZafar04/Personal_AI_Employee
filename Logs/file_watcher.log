@@ -1,0 +1,21 @@
+2026-02-21 07:39:08,096 - INFO - Starting File System Watcher...
+2026-02-21 07:39:08,097 - INFO - Monitoring: C:\Users\UZM\Documents\GitHub\AI_Employee\Inbox
+2026-02-21 07:39:08,097 - INFO - Action files will be created in: C:\Users\UZM\Documents\GitHub\AI_Employee\Needs_Action
+2026-02-21 08:25:05,836 - INFO - Starting File System Watcher...
+2026-02-21 08:25:05,836 - INFO - Monitoring: C:\Users\UZM\Documents\GitHub\AI_Employee\Inbox
+2026-02-21 08:25:05,837 - INFO - Action files will be created in: C:\Users\UZM\Documents\GitHub\AI_Employee\Needs_Action
+2026-02-21 12:19:37,038 - INFO - Starting File System Watcher...
+2026-02-21 12:19:37,039 - INFO - Monitoring: C:\Users\UZM\Documents\GitHub\AI_Employee\Inbox
+2026-02-21 12:19:37,039 - INFO - Action files will be created in: C:\Users\UZM\Documents\GitHub\AI_Employee\Needs_Action
+2026-02-21 12:24:58,961 - INFO - Starting File System Watcher...
+2026-02-21 12:24:58,961 - INFO - Monitoring: C:\Users\UZM\Documents\GitHub\AI_Employee\Inbox
+2026-02-21 12:24:58,962 - INFO - Action files will be created in: C:\Users\UZM\Documents\GitHub\AI_Employee\Needs_Action
+2026-02-21 12:26:33,115 - INFO - New file detected: test_file.txt.tmp.15872.1771705593113
+2026-02-21 12:26:33,155 - INFO - New file detected: test_file.txt.tmp.15872.1771705593113
+2026-02-21 12:28:21,689 - INFO - Starting File System Watcher...
+2026-02-21 12:28:21,689 - INFO - Monitoring: C:\Users\UZM\Documents\GitHub\AI_Employee\Inbox
+2026-02-21 12:28:21,690 - INFO - Action files will be created in: C:\Users\UZM\Documents\GitHub\AI_Employee\Needs_Action
+2026-02-21 12:29:27,134 - INFO - New file detected: real_time_test.txt.tmp.15872.1771705767137
+2026-02-21 12:29:27,134 - INFO - Created action file: FILE_ACTION_20260221_122927_real_time_test.txt.tmp.15872.md
+2026-02-21 12:29:27,134 - INFO - File moved to inbox: real_time_test.txt
+2026-02-21 12:29:27,149 - INFO - Created action file: FILE_ACTION_20260221_122927_real_time_test.md

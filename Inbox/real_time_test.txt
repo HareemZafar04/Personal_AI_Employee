@@ -1,0 +1,3 @@
+This is a second test file to demonstrate real-time file watching.
+The system should detect this file and create a corresponding action item in the Needs_Action folder.
+This demonstrates the real-time functionality of the AI Employee system.

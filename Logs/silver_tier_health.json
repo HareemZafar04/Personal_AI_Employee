@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-02-21T12:28:21.855504",
+  "silver_tier_health": "operational",
+  "checks": {
+    "filesystem_watcher": "healthy",
+    "gmail_watcher": "healthy",
+    "whatsapp_watcher": "healthy",
+    "reasoning_loop": "healthy",
+    "approval_system": "healthy",
+    "scheduler": "healthy",
+    "email_mcp_server": "unhealthy",
+    "linkedin_poster": "unhealthy"
+  }
+}

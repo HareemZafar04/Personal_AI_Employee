@@ -1,0 +1,2 @@
+This is a test file to demonstrate the file system watcher functionality.
+When placed in the Inbox folder, the system should detect it and create an action item.

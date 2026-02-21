@@ -1,0 +1,293 @@
+2026-02-21 07:39:04,689 - INFO - Starting Silver Tier components...
+2026-02-21 07:39:04,905 - INFO - File system watcher started
+2026-02-21 07:39:04,907 - INFO - Gmail watcher started
+2026-02-21 07:39:04,908 - INFO - WhatsApp watcher started
+2026-02-21 07:39:04,911 - INFO - Reasoning loop started
+2026-02-21 07:39:04,922 - INFO - Starting Claude Reasoning Loop...
+2026-02-21 07:39:04,925 - INFO - Analyzing task: Daily Status Report...
+2026-02-21 07:39:04,931 - INFO - Created plan file: PLAN_20260221_073904_8275863091632251509.md
+2026-02-21 07:39:04,934 - INFO - Analyzing task: Daily Status Report...
+2026-02-21 07:39:04,936 - INFO - Approval system started
+2026-02-21 07:39:04,956 - INFO - Starting Approval System...
+2026-02-21 07:39:04,996 - INFO - Created plan file: PLAN_20260221_073904_8275863091632251509.md
+2026-02-21 07:39:04,997 - INFO - Analyzing task: Daily Status Report...
+2026-02-21 07:39:05,000 - INFO - Created plan file: PLAN_20260221_073904_8275863091632251509.md
+2026-02-21 07:39:05,001 - INFO - Analyzing task: LinkedIn Post Request...
+2026-02-21 07:39:05,003 - INFO - Created plan file: PLAN_20260221_073905_8195875911106083230.md
+2026-02-21 07:39:05,004 - INFO - Analyzing task: LinkedIn Post Request...
+2026-02-21 07:39:05,013 - INFO - Created plan file: PLAN_20260221_073905_8195875911106083230.md
+2026-02-21 07:39:05,015 - INFO - Analyzing task: LinkedIn Post Request...
+2026-02-21 07:39:05,017 - INFO - Scheduler started
+2026-02-21 07:39:05,018 - INFO - Created plan file: PLAN_20260221_073905_8195875911106083230.md
+2026-02-21 07:39:05,020 - INFO - Analyzing task: Morning Business Tip - Monday...
+2026-02-21 07:39:05,053 - INFO - Scheduled daily status report at 09:00
+2026-02-21 07:39:05,054 - INFO - Scheduled daily cleanup at 23:00
+2026-02-21 07:39:05,054 - INFO - Scheduled LinkedIn posting at 12:00
+2026-02-21 07:39:05,054 - INFO - Scheduled weekly audit at Sunday 22:00
+2026-02-21 07:39:05,055 - INFO - Scheduled morning business tips for weekdays at 09:00
+2026-02-21 07:39:05,055 - INFO - Starting continuous task scheduler...
+2026-02-21 07:39:05,055 - INFO - Created plan file: PLAN_20260221_073905_4626441518091734587.md
+2026-02-21 07:39:05,057 - INFO - Analyzing task: Morning Business Tip - Monday...
+2026-02-21 07:39:05,059 - INFO - Email MCP Server is configured and ready to handle requests
+2026-02-21 07:39:05,060 - INFO - Email MCP server started
+2026-02-21 07:39:05,072 - INFO - Created plan file: PLAN_20260221_073905_4626441518091734587.md
+2026-02-21 07:39:05,073 - INFO - Analyzing task: Morning Business Tip - Monday...
+2026-02-21 07:39:05,075 - INFO - Created plan file: PLAN_20260221_073905_4626441518091734587.md
+2026-02-21 07:39:05,080 - INFO - Analyzing task: Sample Action Task...
+2026-02-21 07:39:05,083 - INFO - Created plan file: PLAN_20260221_073905_5811131775150858235.md
+2026-02-21 07:39:05,084 - INFO - Analyzing task: Sample Action Task...
+2026-02-21 07:39:05,086 - INFO - Created plan file: PLAN_20260221_073905_5811131775150858235.md
+2026-02-21 07:39:05,087 - INFO - Analyzing task: Sample Action Task...
+2026-02-21 07:39:05,089 - INFO - Created plan file: PLAN_20260221_073905_5811131775150858235.md
+2026-02-21 07:39:05,091 - INFO - Analyzing task: Sample Action Task...
+2026-02-21 07:39:05,092 - INFO - Created plan file: PLAN_20260221_073905_5811131775150858235.md
+2026-02-21 07:39:05,095 - INFO - Analyzing task: AI Employee Task...
+2026-02-21 07:39:05,097 - INFO - Created plan file: PLAN_20260221_073905_8512456897858278438.md
+2026-02-21 07:39:05,100 - INFO - Analyzing task: AI Employee Task...
+2026-02-21 07:39:05,102 - INFO - Created plan file: PLAN_20260221_073905_8512456897858278438.md
+2026-02-21 07:39:05,104 - INFO - Analyzing task: AI Employee Task...
+2026-02-21 07:39:05,106 - INFO - Created plan file: PLAN_20260221_073905_8512456897858278438.md
+2026-02-21 07:39:05,107 - INFO - Analyzing task: AI Employee Task...
+2026-02-21 07:39:05,109 - INFO - Created plan file: PLAN_20260221_073905_8512456897858278438.md
+2026-02-21 07:39:05,112 - INFO - Created 17 new plans from Needs_Action items
+2026-02-21 07:39:05,157 - INFO - Executing plan: PLAN_20260218_121838_241368050976522546
+2026-02-21 07:39:05,164 - INFO - Plan PLAN_20260218_121838_241368050976522546 completed successfully
+2026-02-21 07:39:05,168 - INFO - Executing plan: PLAN_20260218_121838_3709635162855286459
+2026-02-21 07:39:05,172 - INFO - Plan PLAN_20260218_121838_3709635162855286459 completed successfully
+2026-02-21 07:39:05,174 - INFO - Executing plan: PLAN_20260218_121838_4560080689018064344
+2026-02-21 07:39:05,183 - INFO - Plan PLAN_20260218_121838_4560080689018064344 completed successfully
+2026-02-21 07:39:05,191 - INFO - Executing plan: PLAN_20260218_122242_4733237923612941061
+2026-02-21 07:39:05,206 - INFO - LinkedIn poster started
+2026-02-21 07:39:05,207 - INFO - All Silver Tier components started successfully
+2026-02-21 07:39:05,207 - INFO - Running Silver Tier demo tasks...
+2026-02-21 07:39:05,214 - INFO - Created approval request: APPROVAL_REQUEST_EMAIL_20260221_073905_1365.md
+2026-02-21 07:39:05,215 - INFO - Created demo approval request: APPROVAL_REQUEST_EMAIL_20260221_073905_1365.md
+2026-02-21 07:39:05,266 - INFO - Plan PLAN_20260218_122242_4733237923612941061 completed successfully
+2026-02-21 07:39:05,271 - INFO - Executing plan: PLAN_20260218_122242_7325935758143940348
+2026-02-21 07:39:05,374 - INFO - Plan PLAN_20260218_122242_7325935758143940348 completed successfully
+2026-02-21 07:39:05,375 - INFO - Executing plan: PLAN_20260218_122242_8233830282667993207
+2026-02-21 07:39:05,435 - INFO - Plan PLAN_20260218_122242_8233830282667993207 completed successfully
+2026-02-21 07:39:05,438 - INFO - Executing plan: PLAN_20260218_122704_1474034160456351110
+2026-02-21 07:39:05,448 - INFO - Plan PLAN_20260218_122704_1474034160456351110 completed successfully
+2026-02-21 07:39:05,501 - INFO - Executing plan: PLAN_20260218_122704_4627787593269269055
+2026-02-21 07:39:05,507 - INFO - Plan PLAN_20260218_122704_4627787593269269055 completed successfully
+2026-02-21 07:39:05,508 - INFO - Executing plan: PLAN_20260218_122704_8545285721676182523
+2026-02-21 07:39:05,600 - INFO - Plan PLAN_20260218_122704_8545285721676182523 completed successfully
+2026-02-21 07:39:05,602 - INFO - Executing plan: PLAN_20260218_123101_1553817163125152655
+2026-02-21 07:39:05,662 - INFO - Plan PLAN_20260218_123101_1553817163125152655 completed successfully
+2026-02-21 07:39:05,664 - INFO - Executing plan: PLAN_20260218_123101_437720579901451151
+2026-02-21 07:39:05,669 - INFO - Plan PLAN_20260218_123101_437720579901451151 completed successfully
+2026-02-21 07:39:05,670 - INFO - Executing plan: PLAN_20260218_123101_630710957229748152
+2026-02-21 07:39:05,676 - INFO - Plan PLAN_20260218_123101_630710957229748152 completed successfully
+2026-02-21 07:39:05,871 - INFO - Executing plan: PLAN_20260221_073904_8275863091632251509
+2026-02-21 07:39:05,892 - INFO - Plan PLAN_20260221_073904_8275863091632251509 completed successfully
+2026-02-21 07:39:05,947 - INFO - Executing plan: PLAN_20260221_073905_4626441518091734587
+2026-02-21 07:39:05,952 - INFO - Plan PLAN_20260221_073905_4626441518091734587 completed successfully
+2026-02-21 07:39:06,014 - INFO - Executing plan: PLAN_20260221_073905_5811131775150858235
+2026-02-21 07:39:06,020 - INFO - Plan PLAN_20260221_073905_5811131775150858235 completed successfully
+2026-02-21 07:39:06,087 - INFO - Executing plan: PLAN_20260221_073905_8195875911106083230
+2026-02-21 07:39:06,096 - INFO - Plan PLAN_20260221_073905_8195875911106083230 completed successfully
+2026-02-21 07:39:06,199 - INFO - Executing plan: PLAN_20260221_073905_8512456897858278438
+2026-02-21 07:39:06,206 - INFO - Plan PLAN_20260221_073905_8512456897858278438 completed successfully
+2026-02-21 07:39:08,216 - INFO - LinkedIn poster is configured and ready to post
+2026-02-21 07:39:08,218 - INFO - Created scheduled post: LINKEDIN_POST_20260221_143000.json
+2026-02-21 07:39:08,218 - INFO - Created demo LinkedIn scheduled post
+2026-02-21 07:39:08,225 - INFO - Analyzing task: Process client inquiry about services and schedule...
+2026-02-21 07:39:08,231 - INFO - Created plan file: PLAN_20260221_073908_5063982590748733726.md
+2026-02-21 07:39:08,232 - INFO - Created demo plan: PLAN_20260221_073908_5063982590748733726.md
+2026-02-21 07:39:08,233 - INFO - Created demo task: DEMO_TASK_20260221_073908.md
+2026-02-21 07:39:08,233 - INFO - Silver Tier demo tasks completed
+2026-02-21 07:39:08,233 - INFO - Running Silver Tier health check...
+2026-02-21 07:39:08,238 - INFO - Health check completed
+2026-02-21 08:25:02,935 - INFO - Starting Silver Tier components...
+2026-02-21 08:25:03,155 - INFO - File system watcher started
+2026-02-21 08:25:03,156 - INFO - Gmail watcher started
+2026-02-21 08:25:03,190 - INFO - WhatsApp watcher started
+2026-02-21 08:25:03,226 - INFO - Reasoning loop started
+2026-02-21 08:25:03,237 - INFO - Starting Claude Reasoning Loop...
+2026-02-21 08:25:03,239 - INFO - Analyzing task: Daily Status Report...
+2026-02-21 08:25:03,241 - INFO - Created plan file: PLAN_20260221_082503_2799572114085757503.md
+2026-02-21 08:25:03,242 - INFO - Analyzing task: Daily Status Report...
+2026-02-21 08:25:03,245 - INFO - Created plan file: PLAN_20260221_082503_2799572114085757503.md
+2026-02-21 08:25:03,248 - INFO - Analyzing task: Daily Status Report...
+2026-02-21 08:25:03,252 - INFO - Created plan file: PLAN_20260221_082503_2799572114085757503.md
+2026-02-21 08:25:03,324 - INFO - Approval system started
+2026-02-21 08:25:03,336 - INFO - Starting Approval System...
+2026-02-21 08:25:03,354 - INFO - Analyzing task: Demo Task for Silver Tier...
+2026-02-21 08:25:03,384 - INFO - Created plan file: PLAN_20260221_082503_5557171160910552193.md
+2026-02-21 08:25:03,385 - INFO - Analyzing task: LinkedIn Post Request...
+2026-02-21 08:25:03,387 - INFO - Created plan file: PLAN_20260221_082503_5682816988736642550.md
+2026-02-21 08:25:03,389 - INFO - Analyzing task: LinkedIn Post Request...
+2026-02-21 08:25:03,390 - INFO - Created plan file: PLAN_20260221_082503_5682816988736642550.md
+2026-02-21 08:25:03,391 - INFO - Analyzing task: LinkedIn Post Request...
+2026-02-21 08:25:03,393 - INFO - Created plan file: PLAN_20260221_082503_5682816988736642550.md
+2026-02-21 08:25:03,395 - INFO - Analyzing task: Morning Business Tip - Monday...
+2026-02-21 08:25:03,399 - INFO - Created plan file: PLAN_20260221_082503_3022728267687448245.md
+2026-02-21 08:25:03,400 - INFO - Analyzing task: Morning Business Tip - Monday...
+2026-02-21 08:25:03,402 - INFO - Created plan file: PLAN_20260221_082503_3022728267687448245.md
+2026-02-21 08:25:03,403 - INFO - Analyzing task: Morning Business Tip - Monday...
+2026-02-21 08:25:03,405 - INFO - Created plan file: PLAN_20260221_082503_3022728267687448245.md
+2026-02-21 08:25:03,406 - ERROR - Error processing action file Needs_Action\poster.md: 'charmap' codec can't decode byte 0x9d in position 870: character maps to <undefined>
+2026-02-21 08:25:03,410 - INFO - Analyzing task: Sample Action Task...
+2026-02-21 08:25:03,412 - INFO - Created plan file: PLAN_20260221_082503_2416320478253739786.md
+2026-02-21 08:25:03,414 - INFO - Analyzing task: Sample Action Task...
+2026-02-21 08:25:03,415 - INFO - Created plan file: PLAN_20260221_082503_2416320478253739786.md
+2026-02-21 08:25:03,417 - INFO - Analyzing task: Sample Action Task...
+2026-02-21 08:25:03,418 - INFO - Created plan file: PLAN_20260221_082503_2416320478253739786.md
+2026-02-21 08:25:03,419 - INFO - Analyzing task: Sample Action Task...
+2026-02-21 08:25:03,423 - INFO - Scheduler started
+2026-02-21 08:25:03,441 - INFO - Scheduled daily status report at 09:00
+2026-02-21 08:25:03,442 - INFO - Scheduled daily cleanup at 23:00
+2026-02-21 08:25:03,442 - INFO - Scheduled LinkedIn posting at 12:00
+2026-02-21 08:25:03,442 - INFO - Scheduled weekly audit at Sunday 22:00
+2026-02-21 08:25:03,443 - INFO - Scheduled morning business tips for weekdays at 09:00
+2026-02-21 08:25:03,443 - INFO - Starting continuous task scheduler...
+2026-02-21 08:25:03,471 - INFO - Created plan file: PLAN_20260221_082503_2416320478253739786.md
+2026-02-21 08:25:03,472 - INFO - Analyzing task: AI Employee Task...
+2026-02-21 08:25:03,475 - INFO - Created plan file: PLAN_20260221_082503_6990695494446136653.md
+2026-02-21 08:25:03,476 - INFO - Analyzing task: AI Employee Task...
+2026-02-21 08:25:03,479 - INFO - Created plan file: PLAN_20260221_082503_6990695494446136653.md
+2026-02-21 08:25:03,480 - INFO - Analyzing task: AI Employee Task...
+2026-02-21 08:25:03,482 - INFO - Created plan file: PLAN_20260221_082503_6990695494446136653.md
+2026-02-21 08:25:03,484 - INFO - Analyzing task: AI Employee Task...
+2026-02-21 08:25:03,491 - INFO - Created plan file: PLAN_20260221_082503_6990695494446136653.md
+2026-02-21 08:25:03,492 - INFO - Created 18 new plans from Needs_Action items
+2026-02-21 08:25:03,493 - INFO - Executing plan: PLAN_20260221_073908_5063982590748733726
+2026-02-21 08:25:03,501 - INFO - Plan PLAN_20260221_073908_5063982590748733726 completed successfully
+2026-02-21 08:25:03,508 - INFO - Email MCP Server is configured and ready to handle requests
+2026-02-21 08:25:03,509 - INFO - Email MCP server started
+2026-02-21 08:25:03,542 - INFO - LinkedIn poster started
+2026-02-21 08:25:03,543 - INFO - All Silver Tier components started successfully
+2026-02-21 08:25:03,543 - INFO - Running Silver Tier demo tasks...
+2026-02-21 08:25:03,560 - INFO - Created approval request: APPROVAL_REQUEST_EMAIL_20260221_082503_5800.md
+2026-02-21 08:25:03,560 - INFO - Created demo approval request: APPROVAL_REQUEST_EMAIL_20260221_082503_5800.md
+2026-02-21 08:25:03,569 - INFO - Executing plan: PLAN_20260221_082503_2416320478253739786
+2026-02-21 08:25:03,585 - INFO - Plan PLAN_20260221_082503_2416320478253739786 completed successfully
+2026-02-21 08:25:03,621 - INFO - Executing plan: PLAN_20260221_082503_2799572114085757503
+2026-02-21 08:25:03,655 - INFO - Plan PLAN_20260221_082503_2799572114085757503 completed successfully
+2026-02-21 08:25:03,724 - INFO - Executing plan: PLAN_20260221_082503_3022728267687448245
+2026-02-21 08:25:03,736 - INFO - Plan PLAN_20260221_082503_3022728267687448245 completed successfully
+2026-02-21 08:25:03,784 - INFO - Executing plan: PLAN_20260221_082503_5557171160910552193
+2026-02-21 08:25:03,791 - INFO - Plan PLAN_20260221_082503_5557171160910552193 completed successfully
+2026-02-21 08:25:03,827 - INFO - Executing plan: PLAN_20260221_082503_5682816988736642550
+2026-02-21 08:25:03,836 - INFO - Plan PLAN_20260221_082503_5682816988736642550 completed successfully
+2026-02-21 08:25:03,882 - INFO - Executing plan: PLAN_20260221_082503_6990695494446136653
+2026-02-21 08:25:03,887 - INFO - Plan PLAN_20260221_082503_6990695494446136653 completed successfully
+2026-02-21 08:25:06,829 - INFO - LinkedIn poster is configured and ready to post
+2026-02-21 08:25:06,832 - INFO - Created scheduled post: LINKEDIN_POST_20260221_143000.json
+2026-02-21 08:25:06,832 - INFO - Created demo LinkedIn scheduled post
+2026-02-21 08:25:06,834 - INFO - Analyzing task: Process client inquiry about services and schedule...
+2026-02-21 08:25:06,835 - INFO - Created plan file: PLAN_20260221_082506_7221387254639474417.md
+2026-02-21 08:25:06,836 - INFO - Created demo plan: PLAN_20260221_082506_7221387254639474417.md
+2026-02-21 08:25:06,837 - INFO - Created demo task: DEMO_TASK_20260221_082506.md
+2026-02-21 08:25:06,837 - INFO - Silver Tier demo tasks completed
+2026-02-21 08:25:06,838 - INFO - Running Silver Tier health check...
+2026-02-21 08:25:06,839 - INFO - Health check completed
+2026-02-21 12:24:57,849 - INFO - Starting Silver Tier components...
+2026-02-21 12:24:58,129 - INFO - File system watcher started
+2026-02-21 12:24:58,135 - INFO - Gmail watcher started
+2026-02-21 12:24:58,140 - INFO - WhatsApp watcher started
+2026-02-21 12:24:58,171 - INFO - Reasoning loop started
+2026-02-21 12:24:58,181 - INFO - Starting Claude Reasoning Loop...
+2026-02-21 12:24:58,195 - INFO - Analyzing task: Daily Status Report...
+2026-02-21 12:24:58,195 - INFO - Created plan file: PLAN_20260221_122458_8637433220659484318.md
+2026-02-21 12:24:58,195 - INFO - Analyzing task: Morning Business Tip - Monday...
+2026-02-21 12:24:58,195 - INFO - Created plan file: PLAN_20260221_122458_1714650294231078799.md
+2026-02-21 12:24:58,231 - INFO - Approval system started
+2026-02-21 12:24:58,237 - INFO - Starting Approval System...
+2026-02-21 12:24:58,263 - ERROR - Error processing action file Needs_Action\poster.md: 'charmap' codec can't decode byte 0x9d in position 870: character maps to <undefined>
+2026-02-21 12:24:58,271 - INFO - Created 2 new plans from Needs_Action items
+2026-02-21 12:24:58,306 - INFO - Executing plan: PLAN_20260221_082506_7221387254639474417
+2026-02-21 12:24:58,315 - INFO - Plan PLAN_20260221_082506_7221387254639474417 completed successfully
+2026-02-21 12:24:58,331 - INFO - Scheduler started
+2026-02-21 12:24:58,348 - INFO - Scheduled daily status report at 09:00
+2026-02-21 12:24:58,348 - INFO - Scheduled daily cleanup at 23:00
+2026-02-21 12:24:58,349 - INFO - Scheduled LinkedIn posting at 12:00
+2026-02-21 12:24:58,349 - INFO - Scheduled weekly audit at Sunday 22:00
+2026-02-21 12:24:58,350 - INFO - Scheduled morning business tips for weekdays at 09:00
+2026-02-21 12:24:58,350 - INFO - Starting continuous task scheduler...
+2026-02-21 12:24:58,363 - INFO - Executing plan: PLAN_20260221_082949_-607081247
+2026-02-21 12:24:58,368 - INFO - Plan PLAN_20260221_082949_-607081247 completed successfully
+2026-02-21 12:24:58,395 - INFO - Executing plan: PLAN_20260221_082949_3157080968
+2026-02-21 12:24:58,395 - INFO - Plan PLAN_20260221_082949_3157080968 completed successfully
+2026-02-21 12:24:58,422 - INFO - Email MCP Server is configured and ready to handle requests
+2026-02-21 12:24:58,422 - INFO - Email MCP server started
+2026-02-21 12:24:58,429 - INFO - Executing plan: PLAN_20260221_082950_2696152112
+2026-02-21 12:24:58,434 - INFO - Plan PLAN_20260221_082950_2696152112 completed successfully
+2026-02-21 12:24:58,446 - INFO - LinkedIn poster started
+2026-02-21 12:24:58,446 - INFO - All Silver Tier components started successfully
+2026-02-21 12:24:58,446 - INFO - Running Silver Tier demo tasks...
+2026-02-21 12:24:58,452 - INFO - Created approval request: APPROVAL_REQUEST_EMAIL_20260221_122458_5946.md
+2026-02-21 12:24:58,452 - INFO - Created demo approval request: APPROVAL_REQUEST_EMAIL_20260221_122458_5946.md
+2026-02-21 12:24:58,468 - INFO - Executing plan: PLAN_20260221_082950_4186118685
+2026-02-21 12:24:58,471 - INFO - Plan PLAN_20260221_082950_4186118685 completed successfully
+2026-02-21 12:24:58,497 - INFO - Executing plan: PLAN_20260221_083020_5965546326
+2026-02-21 12:24:58,497 - INFO - Plan PLAN_20260221_083020_5965546326 completed successfully
+2026-02-21 12:24:58,538 - INFO - Executing plan: PLAN_20260221_083021_4257953604
+2026-02-21 12:24:58,544 - INFO - Plan PLAN_20260221_083021_4257953604 completed successfully
+2026-02-21 12:24:58,563 - INFO - Executing plan: PLAN_20260221_083021_5965546326
+2026-02-21 12:24:58,563 - INFO - Plan PLAN_20260221_083021_5965546326 completed successfully
+2026-02-21 12:24:58,602 - INFO - Executing plan: PLAN_20260221_083022_4257953604
+2026-02-21 12:24:58,620 - INFO - Plan PLAN_20260221_083022_4257953604 completed successfully
+2026-02-21 12:24:58,645 - INFO - Executing plan: PLAN_20260221_122458_1714650294231078799
+2026-02-21 12:24:58,645 - INFO - Plan PLAN_20260221_122458_1714650294231078799 completed successfully
+2026-02-21 12:24:58,694 - INFO - Executing plan: PLAN_20260221_122458_8637433220659484318
+2026-02-21 12:24:58,699 - INFO - Plan PLAN_20260221_122458_8637433220659484318 completed successfully
+2026-02-21 12:24:59,294 - INFO - LinkedIn poster is configured and ready to post
+2026-02-21 12:24:59,299 - INFO - Created scheduled post: LINKEDIN_POST_20260221_143000.json
+2026-02-21 12:24:59,299 - INFO - Created demo LinkedIn scheduled post
+2026-02-21 12:24:59,299 - INFO - Analyzing task: Process client inquiry about services and schedule...
+2026-02-21 12:24:59,299 - INFO - Created plan file: PLAN_20260221_122459_3857610604447476893.md
+2026-02-21 12:24:59,299 - INFO - Created demo plan: PLAN_20260221_122459_3857610604447476893.md
+2026-02-21 12:24:59,299 - INFO - Created demo task: DEMO_TASK_20260221_122459.md
+2026-02-21 12:24:59,299 - INFO - Silver Tier demo tasks completed
+2026-02-21 12:24:59,299 - INFO - Running Silver Tier health check...
+2026-02-21 12:24:59,299 - INFO - Health check completed
+2026-02-21 12:28:20,703 - INFO - Starting Silver Tier components...
+2026-02-21 12:28:20,851 - INFO - File system watcher started
+2026-02-21 12:28:20,853 - INFO - Gmail watcher started
+2026-02-21 12:28:20,864 - INFO - WhatsApp watcher started
+2026-02-21 12:28:20,876 - INFO - Reasoning loop started
+2026-02-21 12:28:20,882 - INFO - Starting Claude Reasoning Loop...
+2026-02-21 12:28:20,884 - INFO - Analyzing task: Daily Status Report...
+2026-02-21 12:28:20,886 - INFO - Created plan file: PLAN_20260221_122820_2997556696067479928.md
+2026-02-21 12:28:20,925 - INFO - Approval system started
+2026-02-21 12:28:20,927 - INFO - Analyzing task: Demo Task for Silver Tier...
+2026-02-21 12:28:20,931 - INFO - Created plan file: PLAN_20260221_122820_6545304375650916495.md
+2026-02-21 12:28:20,931 - INFO - Starting Approval System...
+2026-02-21 12:28:20,933 - INFO - Analyzing task: Morning Business Tip - Monday...
+2026-02-21 12:28:20,935 - INFO - Created plan file: PLAN_20260221_122820_3180259382583266805.md
+2026-02-21 12:28:20,936 - ERROR - Error processing action file Needs_Action\poster.md: 'charmap' codec can't decode byte 0x9d in position 870: character maps to <undefined>
+2026-02-21 12:28:20,937 - INFO - Created 3 new plans from Needs_Action items
+2026-02-21 12:28:20,959 - INFO - Scheduler started
+2026-02-21 12:28:20,975 - INFO - Executing plan: PLAN_20260221_122459_3857610604447476893
+2026-02-21 12:28:20,977 - INFO - Scheduled daily status report at 09:00
+2026-02-21 12:28:20,978 - INFO - Scheduled daily cleanup at 23:00
+2026-02-21 12:28:20,978 - INFO - Scheduled LinkedIn posting at 12:00
+2026-02-21 12:28:20,978 - INFO - Scheduled weekly audit at Sunday 22:00
+2026-02-21 12:28:20,979 - INFO - Scheduled morning business tips for weekdays at 09:00
+2026-02-21 12:28:20,979 - INFO - Starting continuous task scheduler...
+2026-02-21 12:28:20,985 - INFO - Email MCP Server is configured and ready to handle requests
+2026-02-21 12:28:20,986 - INFO - Email MCP server started
+2026-02-21 12:28:21,002 - INFO - Plan PLAN_20260221_122459_3857610604447476893 completed successfully
+2026-02-21 12:28:21,032 - INFO - LinkedIn poster started
+2026-02-21 12:28:21,032 - INFO - All Silver Tier components started successfully
+2026-02-21 12:28:21,032 - INFO - Running Silver Tier demo tasks...
+2026-02-21 12:28:21,036 - INFO - Executing plan: PLAN_20260221_122820_2997556696067479928
+2026-02-21 12:28:21,037 - INFO - Created approval request: APPROVAL_REQUEST_EMAIL_20260221_122821_8115.md
+2026-02-21 12:28:21,037 - INFO - Created demo approval request: APPROVAL_REQUEST_EMAIL_20260221_122821_8115.md
+2026-02-21 12:28:21,042 - INFO - Plan PLAN_20260221_122820_2997556696067479928 completed successfully
+2026-02-21 12:28:21,109 - INFO - Executing plan: PLAN_20260221_122820_3180259382583266805
+2026-02-21 12:28:21,114 - INFO - Plan PLAN_20260221_122820_3180259382583266805 completed successfully
+2026-02-21 12:28:21,185 - INFO - Executing plan: PLAN_20260221_122820_6545304375650916495
+2026-02-21 12:28:21,190 - INFO - Plan PLAN_20260221_122820_6545304375650916495 completed successfully
+2026-02-21 12:28:21,847 - INFO - LinkedIn poster is configured and ready to post
+2026-02-21 12:28:21,849 - INFO - Created scheduled post: LINKEDIN_POST_20260221_143000.json
+2026-02-21 12:28:21,850 - INFO - Created demo LinkedIn scheduled post
+2026-02-21 12:28:21,852 - INFO - Analyzing task: Process client inquiry about services and schedule...
+2026-02-21 12:28:21,853 - INFO - Created plan file: PLAN_20260221_122821_1884797160820110258.md
+2026-02-21 12:28:21,853 - INFO - Created demo plan: PLAN_20260221_122821_1884797160820110258.md
+2026-02-21 12:28:21,855 - INFO - Created demo task: DEMO_TASK_20260221_122821.md
+2026-02-21 12:28:21,855 - INFO - Silver Tier demo tasks completed
+2026-02-21 12:28:21,855 - INFO - Running Silver Tier health check...
+2026-02-21 12:28:21,857 - INFO - Health check completed

@@ -1,0 +1,2 @@
+2026-02-21 08:23:35,045 - ERROR - Error in LinkedIn poster demo: LinkedIn access token not found. Please set LINKEDIN_ACCESS_TOKEN environment variable or create linkedin_config.json
+2026-02-21 08:24:24,901 - INFO - Created scheduled post: LINKEDIN_POST_20260221_143000.json

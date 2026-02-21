@@ -1,0 +1,21 @@
+2026-02-21 07:27:52,034 - ERROR - Credentials file not found at credentials.json
+2026-02-21 07:27:52,035 - INFO - Please follow the Google API setup instructions to create credentials.json
+2026-02-21 07:27:52,035 - INFO - Starting Gmail Watcher...
+2026-02-21 07:27:52,035 - ERROR - Gmail service not initialized
+2026-02-21 07:29:52,036 - ERROR - Gmail service not initialized
+2026-02-21 09:08:21,419 - ERROR - Credentials file not found at client_secret_754978810874-nii4jlgmal5i8aoq39e068i9mtjt7u8o.apps.googleusercontent.com.json
+2026-02-21 09:08:21,427 - INFO - Please follow the Google API setup instructions to create credentials.json
+2026-02-21 09:08:21,428 - INFO - Starting Gmail Watcher...
+2026-02-21 09:08:21,429 - ERROR - Gmail service not initialized
+2026-02-21 09:10:28,364 - ERROR - Credentials file not found at client_secret_754978810874-nii4jlgmal5i8aoq39e068i9mtjt7u8o.apps.googleusercontent.com.json
+2026-02-21 09:10:28,364 - INFO - Please follow the Google API setup instructions to create credentials.json
+2026-02-21 09:10:28,364 - INFO - Starting Gmail Watcher...
+2026-02-21 09:10:28,364 - ERROR - Gmail service not initialized
+2026-02-21 09:12:28,372 - ERROR - Gmail service not initialized
+2026-02-21 09:14:28,375 - ERROR - Gmail service not initialized
+2026-02-21 09:16:28,380 - ERROR - Gmail service not initialized
+2026-02-21 09:18:28,388 - ERROR - Gmail service not initialized
+2026-02-21 09:20:28,398 - ERROR - Gmail service not initialized
+2026-02-21 09:25:54,899 - ERROR - Gmail service not initialized
+2026-02-21 10:10:47,501 - ERROR - Gmail service not initialized
+2026-02-21 10:12:47,505 - ERROR - Gmail service not initialized

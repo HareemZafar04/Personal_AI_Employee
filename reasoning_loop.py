@@ -1,0 +1,370 @@
+"""
+Claude Reasoning Loop for AI Employee
+
+Implements a reasoning loop that creates Plan.md files for complex tasks.
+"""
+import time
+import logging
+from pathlib import Path
+from datetime import datetime
+import json
+import re
+from typing import Dict, List, Optional
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler('Logs/reasoning_loop.log'),
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger(__name__)
+
+class ReasoningLoop:
+    """Implements Claude's reasoning loop to create and execute plans."""
+
+    def __init__(self):
+        self.plans_dir = Path("Plans")
+        self.needs_action_dir = Path("Needs_Action")
+        self.done_dir = Path("Done")
+        self.active_plans_dir = Path("Active_Plans")
+
+        # Create necessary directories
+        for dir_path in [self.plans_dir, self.needs_action_dir, self.active_plans_dir, self.done_dir]:
+            dir_path.mkdir(exist_ok=True)
+
+    def analyze_task(self, task_description: str, source_file: Optional[Path] = None) -> Dict:
+        """Analyze a task and create a plan."""
+        logger.info(f"Analyzing task: {task_description[:50]}...")
+
+        # Extract task information if source file is provided
+        source_info = {}
+        if source_file:
+            try:
+                content = source_file.read_text()
+                source_info['content'] = content
+                source_info['file_name'] = source_file.name
+                source_info['file_path'] = str(source_file)
+            except Exception as e:
+                logger.error(f"Error reading source file {source_file}: {e}")
+
+        # Create a plan based on the task
+        plan_id = f"PLAN_{datetime.now().strftime('%Y%m%d_%H%M%S')}_{abs(hash(task_description[:10]))}"
+        plan_data = {
+            "id": plan_id,
+            "task_description": task_description,
+            "created_at": datetime.now().isoformat(),
+            "status": "draft",
+            "steps": [],
+            "dependencies": [],
+            "estimated_completion": None,
+            "priority": self._determine_priority(task_description),
+            "source_info": source_info,
+            "executed_steps": [],
+            "failed_steps": [],
+            "completed_at": None
+        }
+
+        return plan_data
+
+    def _determine_priority(self, task_description: str) -> str:
+        """Determine task priority based on keywords."""
+        high_priority_keywords = [
+            "urgent", "asap", "immediate", "emergency", "payment",
+            "invoice", "deadline", "critical", "important"
+        ]
+
+        medium_priority_keywords = [
+            "soon", "within", "by", "today", "tomorrow", "follow up",
+            "reply", "response", "meeting", "appointment"
+        ]
+
+        task_lower = task_description.lower()
+
+        for keyword in high_priority_keywords:
+            if keyword in task_lower:
+                return "high"
+
+        for keyword in medium_priority_keywords:
+            if keyword in task_lower:
+                return "medium"
+
+        return "low"
+
+    def create_plan(self, task_description: str, source_file: Optional[Path] = None) -> Path:
+        """Create a Plan.md file with structured steps."""
+        plan_data = self.analyze_task(task_description, source_file)
+
+        # Generate steps based on the task description
+        steps = self._generate_steps(task_description)
+        plan_data["steps"] = steps
+
+        # Set estimated completion based on priority and number of steps
+        plan_data["estimated_completion"] = self._estimate_completion_time(
+            len(steps), plan_data["priority"]
+        )
+
+        # Create the plan file
+        plan_filename = f"{plan_data['id']}.md"
+        plan_filepath = self.plans_dir / plan_filename
+
+        plan_content = f"""---
+id: {plan_data['id']}
+status: {plan_data['status']}
+priority: {plan_data['priority']}
+created: {plan_data['created_at']}
+estimated_completion: {plan_data['estimated_completion']}
+---
+
+# Task Plan
+
+## Task Description
+{plan_data['task_description']}
+
+## Plan Steps
+"""
+        for i, step in enumerate(plan_data['steps'], 1):
+            plan_content += f"- [ ] {step}\n"
+
+        plan_content += f"""
+
+## Dependencies
+"""
+        for dep in plan_data['dependencies']:
+            plan_content += f"- [ ] {dep}\n"
+
+        plan_content += f"""
+
+## Execution Notes
+- Start with highest priority tasks
+- Check Company_Handbook.md for guidelines
+- Flag sensitive actions for approval
+- Update status regularly
+
+## Source Information
+"""
+        if plan_data['source_info']:
+            plan_content += f"- **File:** {plan_data['source_info'].get('file_name', 'Unknown')}\n"
+            plan_content += f"- **Path:** {plan_data['source_info'].get('file_path', 'Unknown')}\n"
+
+        plan_content += f"""
+---
+*Plan generated by Claude Reasoning Loop at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}*
+"""
+
+        plan_filepath.write_text(plan_content)
+        logger.info(f"Created plan file: {plan_filepath.name}")
+
+        return plan_filepath
+
+    def _generate_steps(self, task_description: str) -> List[str]:
+        """Generate steps based on the task description."""
+        # This would ideally use Claude to generate the steps
+        # For now, we'll implement basic pattern matching
+
+        steps = []
+        task_lower = task_description.lower()
+
+        # General steps for most tasks
+        steps.extend([
+            "Analyze task requirements and context",
+            "Review relevant guidelines in Company_Handbook.md",
+            "Determine required resources and dependencies",
+            "Execute planned actions",
+            "Verify completion and update status"
+        ])
+
+        # Add specific steps based on task content
+        if "email" in task_lower or "message" in task_lower:
+            steps.extend([
+                "Check for appropriate response templates",
+                "Draft response following communication guidelines",
+                "Get required approvals if needed",
+                "Send the email/message"
+            ])
+
+        if "payment" in task_lower or "invoice" in task_lower:
+            steps.extend([
+                "Verify payment details and amounts",
+                "Check approval requirements per Company_Handbook.md",
+                "Process payment with proper authorization",
+                "Log payment transaction"
+            ])
+
+        if "linkedin" in task_lower or "post" in task_lower:
+            steps.extend([
+                "Create appropriate LinkedIn content",
+                "Check content guidelines",
+                "Schedule or publish post",
+                "Monitor engagement"
+            ])
+
+        return steps
+
+    def _estimate_completion_time(self, num_steps: int, priority: str) -> str:
+        """Estimate time to completion based on steps and priority."""
+        base_time = num_steps * 15  # 15 minutes per step
+
+        if priority == "high":
+            base_time *= 0.75  # High priority tasks processed faster
+        elif priority == "low":
+            base_time *= 1.25  # Low priority tasks may take longer
+
+        # Convert to hours/days
+        if base_time >= 480:  # More than 8 hours
+            days = base_time / 480  # Assuming 8 hours work per day
+            return f"{days:.1f} days"
+        elif base_time >= 60:
+            hours = base_time / 60
+            return f"{hours:.1f} hours"
+        else:
+            return f"{int(base_time)} minutes"
+
+    def execute_plan(self, plan_path: Path) -> bool:
+        """Execute a plan by processing its steps."""
+        try:
+            content = plan_path.read_text()
+            plan_id = plan_path.stem
+
+            logger.info(f"Executing plan: {plan_id}")
+
+            # Move plan to Active_Plans directory
+            active_plan_path = self.active_plans_dir / plan_path.name
+            plan_path.rename(active_plan_path)
+
+            # Update plan status to active
+            updated_content = content.replace("status: draft", "status: active")
+            active_plan_path.write_text(updated_content)
+
+            # Process the plan steps (in a real implementation, this would actually execute them)
+            lines = updated_content.split('\n')
+            active_steps = []
+            completed_steps = []
+
+            for line in lines:
+                if line.strip().startswith('- [ ]'):
+                    step = line.replace('- [ ]', '').strip()
+                    active_steps.append(step)
+                elif line.strip().startswith('- [x]'):
+                    step = line.replace('- [x]', '').strip()
+                    completed_steps.append(step)
+
+            # In a real implementation, each step would be executed here
+            # For demo purposes, we'll just update the plan status
+            # after processing all steps
+
+            # Update plan with execution results
+            final_content = updated_content.replace("status: active", "status: completed")
+            final_content = final_content.replace("completed_at: null", f"completed_at: {datetime.now().isoformat()}")
+
+            # Mark all steps as completed
+            for step in active_steps:
+                final_content = final_content.replace(f"- [ ] {step}", f"- [x] {step}")
+
+            active_plan_path.write_text(final_content)
+
+            # Move completed plan to Done directory
+            done_plan_path = self.done_dir / active_plan_path.name
+            active_plan_path.rename(done_plan_path)
+
+            logger.info(f"Plan {plan_id} completed successfully")
+            return True
+
+        except Exception as e:
+            logger.error(f"Error executing plan {plan_path}: {e}")
+            return False
+
+    def process_needs_action_items(self):
+        """Process all items in Needs_Action folder and create plans if needed."""
+        needs_action_files = list(self.needs_action_dir.glob("*.md"))
+        plans_created = 0
+
+        for file_path in needs_action_files:
+            try:
+                content = file_path.read_text()
+
+                # Create plan for each action item
+                # Extract key information from the action file
+                lines = content.split('\n')
+
+                # Try to find a task description
+                task_description = None
+                for line in lines:
+                    if line.startswith('# ') or line.startswith('## '):
+                        task_description = line.lstrip('# ').strip()
+                        break
+
+                # If no heading found, use the first 200 characters
+                if not task_description:
+                    task_description = content[:200].replace('\n', ' ').strip()
+
+                if task_description:
+                    plan_path = self.create_plan(task_description, file_path)
+                    plans_created += 1
+
+            except Exception as e:
+                logger.error(f"Error processing action file {file_path}: {e}")
+
+        return plans_created
+
+    def run(self):
+        """Run the reasoning loop continuously."""
+        logger.info("Starting Claude Reasoning Loop...")
+
+        while True:
+            try:
+                # Process any new items in Needs_Action
+                new_plans = self.process_needs_action_items()
+
+                if new_plans > 0:
+                    logger.info(f"Created {new_plans} new plans from Needs_Action items")
+
+                # Execute any plans that are ready for execution
+                # In a real implementation, this would include scheduling logic
+                # For now, we'll execute all plans in the queue
+
+                # Check for plans to execute (this would be more sophisticated in practice)
+                pending_plans = list(self.plans_dir.glob("*.md"))
+                for plan_path in pending_plans:
+                    # Simple execution - in practice, you'd have more complex logic
+                    # to determine when plans should be executed
+                    self.execute_plan(plan_path)
+
+                # Wait before checking again
+                time.sleep(60)  # Check every minute
+
+            except KeyboardInterrupt:
+                logger.info("Reasoning Loop stopped by user")
+                break
+            except Exception as e:
+                logger.error(f"Error in Reasoning Loop: {e}")
+                time.sleep(60)  # Wait before retrying
+
+def main():
+    """Main function to demonstrate reasoning loop functionality."""
+    try:
+        reasoning_loop = ReasoningLoop()
+
+        # Example: Create a plan from a sample task
+        sample_task = "Respond to client inquiry about our services and schedule a follow-up meeting"
+        plan_path = reasoning_loop.create_plan(sample_task)
+        print(f"Created plan: {plan_path.name}")
+
+        # Another example
+        sample_task2 = "Process urgent payment request for invoice #1234 and confirm with client"
+        plan_path2 = reasoning_loop.create_plan(sample_task2)
+        print(f"Created plan: {plan_path2.name}")
+
+        # Process existing Needs_Action items
+        created_count = reasoning_loop.process_needs_action_items()
+        print(f"Created {created_count} plans from existing Needs_Action items")
+
+        print("Reasoning loop is ready to process tasks automatically")
+
+    except Exception as e:
+        logger.error(f"Error in reasoning loop demo: {e}")
+
+if __name__ == "__main__":
+    main()

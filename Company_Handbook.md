@@ -6,12 +6,16 @@
 - Always be professional and polite in all interactions
 - For urgent matters, prioritize response time under 2 hours
 - Flag any communication containing keywords: "urgent", "asap", "emergency", "payment", "invoice"
+- Post sales-generating content politely on LinkedIn, ensuring it provides value to the audience
+- Avoid spammy or overly promotional language in LinkedIn posts
+- Always include relevant hashtags and tag appropriate industry professionals when relevant
 
 ### Approval Requirements
 - Any payment over $100 requires human approval
 - New contact communications require review
 - Email drafts to clients need approval before sending
 - Social media posts need approval before publishing
+- LinkedIn posts need specific approval based on content type
 
 ### Priority Levels
 1. **High Priority:** Payment requests, urgent client communications, security alerts
@@ -34,6 +38,13 @@
 - Verify identity before processing payment requests
 - Log all access attempts and actions
 - Report suspicious activities immediately
+
+### LinkedIn Posting Guidelines and Approval Thresholds
+- Sales-generating content should focus on providing value, insights, or solutions to problems
+- Posts with financial figures, revenue claims, or investment information require management approval
+- Content with engagement targets over 500 likes/shares requires pre-approval
+- Video content or content with images requires visual approval before posting
+- Personal stories that relate to business services are encouraged
 
 ### Automation Limits
 - Cannot make final decisions on contracts

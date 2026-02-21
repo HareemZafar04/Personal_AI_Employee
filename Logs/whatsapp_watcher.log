@@ -1,0 +1,34 @@
+2026-02-21 07:39:08,517 - INFO - Opening WhatsApp Web. Please scan QR code if prompted...
+2026-02-21 07:39:43,631 - ERROR - Failed to authenticate with WhatsApp. Exiting.
+2026-02-21 07:46:43,487 - INFO - Opening WhatsApp Web. Please scan QR code if prompted...
+2026-02-21 07:46:45,732 - ERROR - Failed to authenticate with WhatsApp. Exiting.
+2026-02-21 07:55:41,098 - INFO - Opening WhatsApp Web. Please scan QR code if prompted...
+2026-02-21 07:56:26,702 - ERROR - Failed to authenticate WhatsApp: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div[data-testid=\"chat-list\"]") to be visible
+
+2026-02-21 07:56:26,718 - ERROR - Failed to authenticate with WhatsApp. Exiting.
+2026-02-21 07:58:13,319 - INFO - Opening WhatsApp Web. Please scan QR code if prompted...
+2026-02-21 07:58:50,365 - ERROR - Failed to authenticate WhatsApp: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div[data-testid=\"chat-list\"]") to be visible
+
+2026-02-21 07:58:50,366 - ERROR - Failed to authenticate with WhatsApp. Exiting.
+2026-02-21 08:25:06,317 - INFO - Opening WhatsApp Web. Please scan QR code if prompted...
+2026-02-21 08:25:59,216 - ERROR - Failed to authenticate WhatsApp: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div[data-testid=\"chat-list\"]") to be visible
+
+2026-02-21 08:25:59,217 - ERROR - Failed to authenticate with WhatsApp. Exiting.
+2026-02-21 12:24:59,446 - INFO - Opening WhatsApp Web. Please scan QR code if prompted...
+2026-02-21 12:25:46,164 - ERROR - Failed to authenticate WhatsApp: Page.wait_for_selector: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("div[data-testid=\"chat-list\"]") to be visible
+
+2026-02-21 12:25:46,164 - ERROR - Failed to authenticate with WhatsApp. Exiting.
+2026-02-21 12:28:22,088 - INFO - Opening WhatsApp Web. Please scan QR code if prompted...
+2026-02-21 12:29:01,140 - ERROR - Failed to authenticate WhatsApp: Page.wait_for_selector: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("div[data-testid=\"chat-list\"]") to be visible
+
+2026-02-21 12:29:01,140 - ERROR - Failed to authenticate with WhatsApp. Exiting.

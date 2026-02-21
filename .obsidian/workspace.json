@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e243a96df513e9c7",
+        "id": "ea7a62f1b2403d48",
         "type": "tabs",
         "children": [
           {
-            "id": "630df8880bbedc8a",
+            "id": "757a62089917a222",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal AI Employee Hackathon 0_ Building Autonomous FTEs in 2026.md",
+                "file": "Approval_Workflow.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Personal AI Employee Hackathon 0_ Building Autonomous FTEs in 2026"
+              "title": "Approval_Workflow"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personal AI Employee Hackathon 0_ Building Autonomous FTEs in 2026.md",
+                "file": "Approval_Workflow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Personal AI Employee Hackathon 0_ Building Autonomous FTEs in 2026"
+              "title": "Backlinks for Approval_Workflow"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Personal AI Employee Hackathon 0_ Building Autonomous FTEs in 2026.md",
+                "file": "Approval_Workflow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Personal AI Employee Hackathon 0_ Building Autonomous FTEs in 2026"
+              "title": "Outgoing links from Approval_Workflow"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personal AI Employee Hackathon 0_ Building Autonomous FTEs in 2026.md",
+                "file": "Approval_Workflow.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Personal AI Employee Hackathon 0_ Building Autonomous FTEs in 2026"
+              "title": "Outline of Approval_Workflow"
             }
           }
         ]
@@ -183,15 +183,43 @@
       "bases:Create new base": false
     }
   },
-  "active": "630df8880bbedc8a",
+  "active": "757a62089917a222",
   "lastOpenFiles": [
-    "Company_Handbook.md",
-    "Needs_Action/SAMPLE_ACTION_20260218_104142.md",
-    "Needs_Action/SAMPLE_ACTION_20260218_112112.md",
-    "Dashboard.md",
-    "Personal AI Employee Hackathon 0_ Building Autonomous FTEs in 2026.md",
-    "Inbox/test_tasks.md",
-    "Needs_Action/TASK_20260218_112112_HIGH.md",
-    "Needs_Action/TASK_20260218_112001_HIGH.md"
+    "client_secret_754978810874-nii4jlgmal5i8aoq39e068i9mtjt7u8o.apps.googleusercontent.com.json",
+    "client_secret_324242140551-63ahg774j6eocna00j6sbbdcftt9j7g3.apps.googleusercontent.com.json",
+    "credentials.json",
+    "whatsapp_session/Safe Browsing",
+    "whatsapp_session/component_crx_cache/metadata.json",
+    "whatsapp_session/component_crx_cache",
+    "credentials (2).json",
+    "Done/TASK_20260218_112112_HIGH.md",
+    "Plans/PLAN_20260221_083022_4257953604.md",
+    "Done/TASK_20260218_112001_HIGH.md",
+    "Done/TASK_20260218_110738_HIGH.md",
+    "Done/TASK_20260218_104204_HIGH.md",
+    "Plans/PLAN_20260221_083021_4257953604.md",
+    "Done/SAMPLE_ACTION_20260218_112112.md",
+    "Plans/PLAN_20260221_083021_5965546326.md",
+    "Done/SAMPLE_ACTION_20260218_110738.md",
+    "Done/SAMPLE_ACTION_20260218_104316.md",
+    "Done/SAMPLE_ACTION_20260218_104142.md",
+    "Plans/PLAN_20260221_083020_5965546326.md",
+    "tools/__pycache__/ralph_loop_runner.cpython-312.pyc",
+    "tools/__pycache__",
+    "Done/MORNING_TIP_MONDAY_20260218_123101.md",
+    "Done/MORNING_TIP_MONDAY_20260218_122707.md",
+    "Done/MORNING_TIP_MONDAY_20260218_122248.md",
+    "Plans/PLAN_20260221_082950_2696152112.md",
+    "Done/LINKEDIN_POST_20260218_123101.md",
+    "Done/LINKEDIN_POST_20260218_122707.md",
+    "Done/LINKEDIN_POST_20260218_122248.md",
+    "Plans/PLAN_20260221_082950_4186118685.md",
+    "Done/DEMO_TASK_20260221_082506.md",
+    "Done/DEMO_TASK_20260221_073908.md",
+    "Plans/PLAN_20260221_082949_-607081247.md",
+    "Done/DAILY_STATUS_REPORT_20260218_123101.md",
+    "Done/DAILY_STATUS_REPORT_20260218_122707.md",
+    "Logs/ralph_loop_runner.log",
+    "tools/ralph_loop_runner.py"
   ]
 }
